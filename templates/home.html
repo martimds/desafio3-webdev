@@ -1,12 +1,10 @@
-{% extends 'layout.html' %} {% block content %}
+{% extends 'layout.html' %}{% set active_page = 'home' %} {% block content %}
 
-<!-- Consertar carrossel -->
 <div class="container mt-5">
   <div
-    id="carouselExampleSlidesOnly"
+    id="carouselExampleAutoplaying"
     class="carousel slide"
-    data-ride="carousel"
-    data-interval="5000"
+    data-bs-ride="carousel"
   >
     <div class="carousel-inner">
       <div class="carousel-item active">
