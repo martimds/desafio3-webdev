@@ -1,3 +1,8 @@
 .navbar-brand {
-    margin-left: 15px; 
-  }
+  margin-left: 15px;
+}
+
+main {
+  align-content: center;
+  max-width: 60%;
+}
